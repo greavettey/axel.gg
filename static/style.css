@@ -24,11 +24,12 @@ body {
 }
 
 .wrapper {
+    border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100px;
-    width: 450px;
+    min-width: 800px;
+    width: auto;
     background: #f7f7f7;
     border: solid;
     transform: translate(-50%, -50%);
@@ -49,7 +50,7 @@ body {
 }
 
 .squares {
-    min-width: 120px;
+    min-width: 120px !important;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -77,9 +78,8 @@ body {
     margin: -10px;
 }
 
-.info p {
+#info p {
     font-family: 'Source Code Pro', monospace !important;
-
 }
 
 .wrapper .faux-menu.active {
@@ -130,8 +130,6 @@ body {
 
 .content p {
     font-size: 16px;
-    text-align: justify;
-    width: -webkit-fill-available;
 }
 
 #no-select {
@@ -140,4 +138,30 @@ body {
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
+}
+
+fieldset {
+    padding:10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: solid;
+}
+
+legend {
+    font-size:large;
+    padding: 3px 6px;
+}
+
+.entry-content p:first-of-type  {
+    margin-top: -15px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    vertical-align: center;
+    height: -webkit-fill-available;
 }

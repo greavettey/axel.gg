@@ -18,61 +18,47 @@
             <div class="wrapper" id="desc-w">
                 <div class="faux-menu" id="desc-m">
                     <header id="top">Axel Greavette</header>
-                    <div id="top" class="squares">
-                        <div style="height: 12px; width: 12px; background: #f39672; border: solid 1px black;"> </div>
-                        <div style="height: 12px; width: 12px; background: #fbf593; border: solid 1px black;"></div>
-                        <div style="height: 12px; width: 12px; background: #bee08e; border: solid 1px black;"></div>
+                    <div id="top" class="si squares">
+                        <a href="https://instagram.com/axel.grvt"><i class="fab fa-instagram-square"
+                                style="font-size:30px; color: #6C809A;"></i></a>
+                        <a href="https://github.com/axelgrvt"><i class="fab fa-github-square"
+                                style="font-size:30px; color: #795663;"></i></a>
                     </div>
                 </div>
                 <div class="content">
                     <div class="title" id="intro">Oh, hey. </div>
-                    <p>I'm just a Canadian kid with a penchant for making things.</p> <br />
-                    <p>I'm having a lot of fun learning PERL right now, and finally added my character title generator to the site.</p> <br />
-                    <p>See:</p>
-                    <p><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="https://github.com/gryphtech-robotics/">Team 6846's Github</a></p>
-                    <p><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="/p/payment-tracker/">Payment Tracker</a></p>
-                    <p><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="/p/title/">Title Generator</a></p>
-                    <p id="socials-hidden-button" style="display: none;"><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="#" onclick="unhide('#socials-w'); return false">Socials</a></p>
-                    <p><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="#" onclick="unhide('#site-w'); return false">Site Information</a></p>
+                    <div class="row">
+                        <div class="column">
+                            <fieldset class="entry-content" style="border-color: green;">
+                                <legend style="color: green">Latest Update</legend>
+                                <p>Prom was pretty cool, and grad is coming up soon.</p>
+                            </fieldset>
+                            <fieldset class="entry-content" style="border-color: teal;">
+                                <legend style="color: teal;">About Me</legend>
+                                <p>I'm just a <strong><span id="age"></span> y/o</strong> from <strong>Canada</strong> with a penchant for making things.</p>
+                                <p style="margin-top: 10px">I'm a big fan of <strong>snowboarding</strong>, <strong>water sports</strong>, <strong>D&D</strong>, and <strong>reading</strong>.</p>
+                                <p style="margin-top: 10px">At one point I was an <strong>avid programmer</strong>, but I've lost a lot of that inspiration more recently.</p>
+                            </fieldset>
+                        </div>
+                        <div class="column">
+                            <fieldset class="entry-content" style="border-color: orange">
+                                <legend style="color: orange">Fun Fact</legend>
+                                <p><span id="fact"></span></p>
+                            </fieldset>
+                            <fieldset class="entry-content" style="border-color: cornflowerblue;">
+                                <legend style="color: cornflowerblue;">Other Projects</legend>
+                                <p><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="https://github.com/gryphtech-robotics/">Team 6846's Github</a></p>
+                                <p><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="/p/payment-tracker/">Payment Tracker</a></p>
+                                <p><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="/p/title/">Title Generator</a></p>
+                                <p id="socials-hidden-button" style="display: none;"><span id="no-select">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;</span><a href="#" onclick="unhide('#socials-w'); return false">Socials</a></p>
+                            </fieldset>
+                            <fieldset class="entry-content" id="info" style="border-color: grey;">
+                                <legend style="color: grey">Site Info</legend>
+                                <p style="text-align: center;">&copy; Axel Greavette&nbsp;&nbsp;&nbsp;5.6.2R&nbsp;&nbsp;&nbsp;<span id="sha"></span></p>
+                        </div>
+                    </div>  
                 </div>
             </div>
-            <div class="wrapper" id="socials-w">
-                <div class="faux-menu" id="socials-m">
-                    <header id="top">Check me out &#128527</header>
-                    <div id="top" class="squares">
-                        <div style="height: 12px; width: 12px; background: #f39672; border: solid 1px black;"> </div>
-                        <div style="height: 12px; width: 12px; background: #fbf593; border: solid 1px black;"></div>
-                        <div style="height: 12px; width: 12px; background: #bee08e; border: solid 1px black;"></div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="si">
-                        <a href="https://instagram.com/axel.grvt"><i class="fab fa-instagram-square"
-                                style="font-size:44px; color: #6C809A;"></i></a>
-                        <a href="https://github.com/axelgrvt"><i class="fab fa-github-square"
-                                style="font-size:44px; color: #795663;"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="wrapper" id="site-w" style="visibility: hidden;">
-                <div class="faux-menu" id="site-m">
-                    <header id="top">Site Information</header>
-                    <div id="top" class="squares">
-                        <div style="height: 12px; width: 12px; background: #f39672; border: solid 1px black;"> </div>
-                        <div style="height: 12px; width: 12px; background: #fbf593; border: solid 1px black;"></div>
-                        <div style="height: 12px; width: 12px; background: #bee08e; border: solid 1px black;"></div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="info">
-                        <p>Author: Axel Greavette</p>
-                        <p>Built with: HTML5 and CSS3</p>
-                        <p>Version: 5.0.2R</p>
-                        <p>Last Commit: <span id="sha" /></p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <span class="some-element"></span>
     </body>
     <footer>
