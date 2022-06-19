@@ -67,7 +67,8 @@ async function fact() {
     const request = await fetch("https://ipv4.jsonip.com/", { mode: "cors" })
     const json = await request.json().catch(e => {
         return "192.168.2.1" 
-    })
+    });
+    
     facts.push(json.ip)
     
     document.querySelector("#fact").innerHTML = facts[facts.length * Math.random() | 0];
