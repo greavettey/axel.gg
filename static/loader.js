@@ -61,7 +61,8 @@ async function fact() {
         "I'm also a rapper...",
         "I'm really enjoying the new <strong>070 Shake album</strong>.",
         "Cash in, cash out, cash in, cash out.",
-        "My Minecraft username is <strong>grvt</strong>."
+        "My Minecraft username is <strong>grvt</strong>.",
+        "Al be super cute &#129392"
     ]
 
     const request = await fetch("https://ipv4.jsonip.com/", { mode: "cors" })
