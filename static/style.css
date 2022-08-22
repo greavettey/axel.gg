@@ -50,7 +50,7 @@ body {
 }
 
 .squares {
-    min-width: 120px !important;
+    min-width: 150px !important;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

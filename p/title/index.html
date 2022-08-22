@@ -1213,17 +1213,22 @@
                 document.getElementById("replace-me").innerText = document.getElementById("get-me").value === "" ? "To start, type a name in the box below:" : choice.replace("[N]", document.getElementById("get-me").value)
 
             }
-            </script>
+        </script>
+        <style>
+            ::placeholder {
+                text-align: center;
+            }
+        </style>
         </head>
     <body>
         <div class="row  d-flex align-items-center justify-content-center" style="height: 100vh; width: 100vw">
             <div class="col-lg-3 center-block" style="text-align:center;">
                 <h2 id="replace-me">To start, type a name in the box below:</h2>
                 <div class="input-group">
-                    <input type="text" onkeyup="genTitle()" class="form-control" id="get-me" placeholder="Type a name here">
+                    <input type="text" onkeyup="genTitle()" class="form-control" id="get-me" placeholder="Namey McNameface">
                 </div>
+                <p style="text-align:left; font-size: 13px">&#x2190; <a href="/">Back to axel.gg</a></p>
             </div>
         </div>
     </body>
-
 </html>

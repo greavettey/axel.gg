@@ -24,10 +24,10 @@ function greeting() {
         "Greetings, fellow human.",
         "&#128075",
         "Hello &#128075;"
-    ]
+    ];
 
     let intro = document.querySelector("#intro");
-    return intro.innerHTML = greetings[greetings.length * Math.random() | 0]
+    return intro.innerHTML = greetings[greetings.length * Math.random() | 0];
 }
 
 function commit() {
@@ -37,7 +37,6 @@ function commit() {
             let cut = full.substring(0, 6);
             document.querySelector("#sha").innerHTML = "<a href=\"https://github.com/axelgrvt/axel.gg/commit/" + full + "\">" + cut + "</a>";
         });
-
     });
 }
 
@@ -57,26 +56,24 @@ async function fact() {
         "<a href='https://www.goodreads.com/book/show/18713259-worm'>WORM by Wildbow</a> is my favourite book.",
         "I'm <strong>red-green colourblind</strong>.",
         "I want to study <strong>architectural design</strong> at <strong>uWaterloo</strong>.",
-        "I'm currently reading both <a href='https://www.goodreads.com/book/show/17841.Foucault_s_Pendulum'>Foucault's Pendulum by Umberto Eco</a> and <a href='https://www.goodreads.com/book/show/338798.Ulysses'>Ulysses by James Joyce</a>.",
         "I'm also a rapper...",
         "I'm really enjoying the new <strong>070 Shake album</strong>.",
         "Cash in, cash out, cash in, cash out.",
         "My Minecraft username is <strong>grvt</strong>.",
-        "Al be super cute &#129392"
+        "Al be super cute &#129392",
+        "Boba kinda fire tho",
+        "My girlfriend is insanely awesome.",
+        "I'm kind of addicted to Kickstarter."
     ]
 
     const request = await fetch("https://ipv4.jsonip.com/", { mode: "cors" })
     const json = await request.json().catch(e => {
-        return "192.168.2.1" 
+        return "192.168.2.1";
     });
     
     facts.push(json.ip)
     
     document.querySelector("#fact").innerHTML = facts[facts.length * Math.random() | 0];
-}
-
-function unhide(e) {
-    document.querySelector(e).style.visibility = "visible";
 }
 
 function logger() {
