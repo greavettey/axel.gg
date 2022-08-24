@@ -61,18 +61,3 @@ function draggable(items) {
     })
     
 }
-
-function randomStart() {
-    let wrappers = document.querySelectorAll(".wrapper");
-    
-    wrappers[wrappers.length * Math.random() | 0].classList.add("zi");
-
-    wrappers.forEach(w => {        
-        screen.width 
-        
-        w.style.left = `${((screen.width / 2) - 200) + Math.random() * 275 + (Math.random() + 50)}px`;
-        w.style.top = `${((screen.height / 2) - 200) + Math.random() * 275 + (Math.random() + 50)}px`;
-
-        console.log(w.style.left, w.style.right);
-    });
-}
