@@ -1212,22 +1212,69 @@
 
                 document.getElementById("replace-me").innerText = document.getElementById("get-me").value === "" ? "To start, type a name in the box below:" : choice.replace("[N]", document.getElementById("get-me").value)
 
+                if(document.getElementById("get-me").value) {
+                    document.getElementById("refresh").style.display = "flex"
+                    document.getElementById("title-bit").style.justifyContent = "space-between"
+                } else {
+                    document.getElementById("refresh").style.display = "none"
+                    document.getElementById("title-bit").style.justifyContent = "center"
+                }
+            }
+
+            function os() {
+                if (navigator.userAgent.indexOf("Win")!=-1) document.getElementById("os").innerText = "CTRL";
+                if (navigator.userAgent.indexOf("Mac")!=-1) document.getElementById("os").innerText = "CMD";
             }
         </script>
         <style>
             ::placeholder {
                 text-align: center;
             }
+
+            #refresh {
+                vertical-align: middle;
+                text-align:right;
+                padding-left: 10px;
+                display: none;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #title-bit {
+                display: flex;
+                justify-content: center;
+            }
+            
+            #foot-bit {
+                display: flex;
+                justify-content: space-between;                
+                font-size: 13px
+            }
+
+            button {
+                all: unset;
+                cursor: pointer;
+            }
+
+            button:focus {
+                outline: orange 5px auto;
+            }
         </style>
         </head>
-    <body>
+    <body onload="os()">
         <div class="row  d-flex align-items-center justify-content-center" style="height: 100vh; width: 100vw">
             <div class="col-lg-3 center-block" style="text-align:center;">
-                <h2 id="replace-me">To start, type a name in the box below:</h2>
+                <div id="title-bit">
+                    <h2 id="replace-me">To start, type a name in the box below:</h2>
+                    <h2 id="refresh"><button onclick="genTitle()" title="Reroll title">&#x21bb;</button></h2>
+                </div>
                 <div class="input-group">
                     <input type="text" onkeyup="genTitle()" class="form-control" id="get-me" placeholder="Namey McNameface">
                 </div>
-                <p style="text-align:left; font-size: 13px">&#x2190; <a href="/">Back to axel.gg</a></p>
+                <div id="foot-bit">
+                    <p>&#x2190; <a href="/">Back to axel.gg</a></p>
+                    <p>Press <strong id="os"></strong> or hit to <strong>&#x21bb;</strong> reroll your title.</p>
+                </div>
             </div>
         </div>
     </body>
