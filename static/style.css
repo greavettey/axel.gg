@@ -28,8 +28,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 950px;
-    width: 950px;
+    min-width: 960px;
+    width: 960px;
     background: #f7f7f7;
     border: solid;
     transform: translate(-50%, -50%);
