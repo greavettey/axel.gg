@@ -27,8 +27,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 970px;
-    width: 970px; 
+    min-width: 1000px;
+    width: 1000px; 
     background: #f7f7f7;
     border: solid;
     transform: translate(-50%, -50%);

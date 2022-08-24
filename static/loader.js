@@ -63,15 +63,13 @@ async function fact() {
         "Al be super cute &#129392",
         "Boba kinda fire tho",
         "My girlfriend is insanely awesome.",
-        "I'm kind of addicted to Kickstarter."
+        "I'm kind of addicted to Kickstarter.",
+        "I'm on a roll today.",
+        "Oh yeah?",
+        "I had a funny joke in here, but I removed it.",
+        "Yeah, I've made a few ARGs in my day.",
+        "It's my day.",
     ]
-
-    const request = await fetch("https://ipv4.jsonip.com/", { mode: "cors" })
-    const json = await request.json().catch(e => {
-        return "192.168.2.1";
-    });
-    
-    facts.push(json.ip)
     
     document.querySelector("#fact").innerHTML = facts[facts.length * Math.random() | 0];
 }
