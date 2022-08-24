@@ -20,7 +20,6 @@ body {
 
 .zi { 
     z-index: 1000 !important;
-
 }
 
 .wrapper {
@@ -28,8 +27,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 960px;
-    width: 960px;
+    min-width: 970px;
+    width: 970px; 
     background: #f7f7f7;
     border: solid;
     transform: translate(-50%, -50%);
