@@ -23,7 +23,10 @@ function greeting() {
         "Greetings, human.",
         "Greetings, fellow human.",
         "&#128075",
-        "Hello &#128075;"
+        "Hello &#128075;",
+        "( *・∀・)ノ゛",
+        "Oh, hi there!",
+        "[picks up phone] ... hmmm ... right ... ok ... alright ... [puts down phone]"
     ];
 
     let intro = document.querySelector("#intro");
@@ -55,20 +58,21 @@ async function fact() {
         "I am a human.",
         "<a href='https://www.goodreads.com/book/show/18713259-worm'>WORM by Wildbow</a> is my favourite book.",
         "I'm <strong>red-green colourblind</strong>.",
-        "I want to study <strong>architectural design</strong> at <strong>uWaterloo</strong>.",
+        "I'm considering studying <strong>architectural design</strong> at <strong>uWaterloo</strong>.",
         "I'm also a rapper...",
-        "I'm really enjoying the new <strong>070 Shake album</strong>.",
-        "Cash in, cash out, cash in, cash out.",
+        "That new DJ Khaled album is kinda heat.",
+        "New JID goes hard",
         "My Minecraft username is <strong>grvt</strong>.",
         "Al be super cute &#129392",
-        "Boba kinda fire tho",
         "My girlfriend is insanely awesome.",
-        "I'm kind of addicted to Kickstarter.",
         "I'm on a roll today.",
         "Oh yeah?",
         "I had a funny joke in here, but I removed it.",
         "Yeah, I've made a few ARGs in my day.",
         "It's my day.",
+        "I'm tempted to turn this into a full web-app but I'm not sure what the point would be.",
+        "I really like <strong>Malcolm T. Liepke</strong>'s oil-on-canvas portraits.",
+        "Jordan Peele's \"Nope\" was really mid."
     ]
     
     document.querySelector("#fact").innerHTML = facts[facts.length * Math.random() | 0];
