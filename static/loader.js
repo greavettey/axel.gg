@@ -24,7 +24,7 @@ function greeting() {
         "Greetings, fellow human.",
         "&#128075",
         "Hello &#128075;",
-        "( *・∀・)ノ゛",
+        "&lpar;&#32;&ast;&#12539;&forall;&#12539;&rpar;&#12494;&#12443;",
         "Oh, hi there!",
         "[picks up phone] ... hmmm ... right ... ok ... alright ... [puts down phone]"
     ];
@@ -70,6 +70,7 @@ async function fact() {
         "I had a funny joke in here, but I removed it.",
         "Yeah, I've made a few ARGs in my day.",
         "It's my day.",
+        "This website doesn't work as well on a phone.",
         "I'm tempted to turn this into a full web-app but I'm not sure what the point would be.",
         "I really like <strong>Malcolm T. Liepke</strong>'s oil-on-canvas portraits.",
         "Jordan Peele's \"Nope\" was really mid."
