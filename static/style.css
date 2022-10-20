@@ -1,169 +1,71 @@
-/* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-* {
+body,html {
     margin: 0;
     padding: 0;
+}
+* {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    background: #FBFAF5;
-    overflow:hidden;
-}
-
-::selection {
-    color: #fff;
-    background: #6F36FF;
-}
-
-.zi { 
-    z-index: 1000 !important;
-}
-
-.start {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.wrapper {
-    margin-right: 10px;
-    border-radius: 10px;
-    min-width: 1000px;
-    width: 1000px; 
-    background: #f7f7f7;
-    border: solid;
-    box-shadow: 10px 5px 5px rgba(53, 53, 53, 0.219);
-    overflow: auto;
-    position:relative;
-    float: left;
-}
-.faux-menu {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center; 
-    align-content: center;
-    background-color: #eaeaea;
-    border-bottom: solid;
-}
-
-.squares {
-    min-width: 150px !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-items: center;
-}
-
-.si {
-    min-width: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-items: center;
-}
-
-.info {
-    font-family: 'Source Code Pro', monospace !important;
-    align-items: flex-start !important;
-    background-color: white;
-    height: -webkit-fill-available;
-    width: -webkit-fill-available;
-    padding: 10px;
-    border-radius: 10px;
-    margin: -10px;
-}
-
-#info p {
-    font-family: 'Source Code Pro', monospace !important;
-}
-
-.wrapper .faux-menu.active {
-    cursor: move;
-    user-select: none;
-}
-
-.wrapper #top {
-    font-size: 23px;
-    font-weight: 1000;
-    padding: 17px 30px;
-}
-
-.wrapper #top.active {
-    cursor: move;
-    user-select: none;
-}
-
-.wrapper .content {
-    display: flex;
-    padding: 30px 30px 40px 30px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    border-top: 1px solid #ccc;
-}
-
-.content .icon {
-    height: 95px;
-    width: 95px;
-    border-radius: 50%;
-    border: 5px solid #6F36FF;
+.box {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.content .icon i {
-    color: #6F36FF;
-    font-size: 60px;
-}
-
-.content .title {
-    margin: 0 0 15px;
-    font-size: 29px;
-    font-weight: 500;
-}
-
-.content p {
-    font-size: 16px;
-}
-
-#no-select {
-    user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-}
-
-fieldset {
-    padding:10px;
-    margin: 5px;
-    border-radius: 5px;
-    border: solid;
-}
-
-legend {
-    font-size:large;
-    padding: 3px 6px;
-}
-
-.entry-content p:first-of-type  {
-    margin-top: -15px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .row {
     display: flex;
+    justify-content: center;
 }
 
 .column {
     flex: 50%;
     vertical-align: center;
     height: -webkit-fill-available;
+    margin: 10px;
+    max-width: 40%;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+#social {
+    font-size: 30px;
+}
+
+#special {
+    cursor:pointer;
+}
+
+#inner {
+    padding-left: 5px;
+}
+
+#highlighted {
+    color: #30D5C8
+}
+
+#emphasized {
+    color: #FF5A5F;
+}
+
+a#emphasized{
+    text-decoration: none;
+    color: #89A1EF;
+}
+
+#centered {
+    margin-bottom: 0px;
+    text-align:center;
+}
+
+#darkmode {
+    color: white;
+    background-color: #272727;
 }
