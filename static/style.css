@@ -22,22 +22,25 @@ body {
     z-index: 1000 !important;
 }
 
-.wrapper {
-    border-radius: 10px;
+.start {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    margin-right: 10px;
+    border-radius: 10px;
     min-width: 1000px;
     width: 1000px; 
     background: #f7f7f7;
     border: solid;
-    transform: translate(-50%, -50%);
     box-shadow: 10px 5px 5px rgba(53, 53, 53, 0.219);
     overflow: auto;
-    resize: both;
-    z-index:1;
+    position:relative;
+    float: left;
 }
-
 .faux-menu {
     display:flex;
     flex-direction: row;
@@ -88,7 +91,7 @@ body {
 
 .wrapper #top {
     font-size: 23px;
-    font-weight: 500;
+    font-weight: 1000;
     padding: 17px 30px;
 }
 
