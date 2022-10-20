@@ -42,6 +42,10 @@ body,html {
     font-variant-numeric: slashed-zero;
 }
 
+.sha a {
+    color: white;
+}
+
 #info {
     margin-bottom: 10px;
 }
