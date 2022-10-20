@@ -5,6 +5,7 @@
         <title>Axel Greavette</title>
         <link rel="stylesheet" href="./static/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/kzj6lgy.css">
         <link rel="apple-touch-icon" sizes="180x180" href="./static/favicon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon.png">
@@ -12,21 +13,26 @@
     <body onload="loadMode()">
         <div class="box">
             <div>
-                <h1 id="centered"><span id="highlighted">axel</span>.<a id="special" onclick="darkMode()">g</a><span id="highlighted">greavette</span></h1>
+                <div class="row" id="title">
+                    <h1><span id="highlighted">axel</span>.<a id="special" onclick="darkMode()">g</a><span id="highlighted">greavette</span></h1>
+                </div>
                 <div class="row">
                     <div class="column">
                         <p>I'm just a <strong id="emphasized">17 y/o</strong> from Canada with a penchant for making things.</p>
                         <p>I'm a big fan of <strong id="emphasized">snowboarding</strong>, water sports, D&D, and reading.</p>
                         <p>I'm considering going to school for computer science, architectural design, <strong id="emphasized">engineering</strong>, or something else in that area.</p>
+                        <div id="socials">
+                            <a href="https://instagram.com/axel.grvt"><i class="fab fa-instagram-square" id="social" style="color: #6C809A;"></i></a>
+                            <a href="https://github.com/greavettey" id="inner"><i class="fab fa-github-square" id="social" style="color: #795663;"></i></a>
+                            <a href="https://www.pinterest.ca/anathasuessor/" id="inner"><i class="fab fa-pinterest-square" id="social" style="color: #B7990D;"></i></a>
+                        </div>
                     </div>
                     <hr style="margin: 10px" />
                     <div class="column">
                         <p>I redo this website every other day. You can find it, and my other projects, on my <strong><a id="emphasized" href="https://github.com/axelgrvt">GitHub</a></strong>.</p>
                         <p>I'm really involved with my school's robotics team, and all of our robot-related code is on the <strong><a id="emphasized" href="https://github.com/gryphtech-robotics">Team 6864 Github</a></strong>.</p>
-                        <div class="socials">
-                            <a href="https://instagram.com/axel.grvt"><i class="fab fa-instagram-square" id="social" style="color: #6C809A;"></i></a>
-                            <a href="https://github.com/greavettey" id="inner"><i class="fab fa-github-square" id="social" style="color: #795663;"></i></a>
-                            <a href="https://www.pinterest.ca/anathasuessor/" id="inner"><i class="fab fa-pinterest-square" id="social" style="color: #B7990D;"></i></a>
+                        <div id="info">
+                            <p>&copy; Axel Greavette&nbsp;&nbsp;&nbsp;v5.9.0Q&nbsp;&nbsp;<div id="sha-container"><div class="sha" id="sha-master">master: </div><div class="sha" id="sha-dev">dev: </div></div>&nbsp;&nbsp;&nbsp;&nbsp;<a id="emphasized" href="mailto:axel@axel.gg">hire me</a></p>
                         </div>
                     </div>
                 </div>
