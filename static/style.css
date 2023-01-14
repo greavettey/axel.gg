@@ -26,7 +26,7 @@ body,html {
     flex: 50%;
     vertical-align: center;
     height: -webkit-fill-available;
-    margin: 10px;
+    margin-left: 10px;
     max-width: 40%;
 }
 
@@ -77,6 +77,10 @@ body,html {
     font-family: source-code-pro, monospace !important;
     font-variant-numeric: slashed-zero;
     margin: 0%;
+}
+
+#title {
+    margin-bottom: 10px;
 }
 
 #title h1 {

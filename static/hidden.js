@@ -31,7 +31,7 @@ function commit() {
 
         });
     });
-    fetch("https://api.github.com/repos/greavettey/axel.gg/commits/dev").then(res => {
+    fetch("https://api.github.com/repos/greavettey/axel.gg/commits/portfolio").then(res => {
         res.json().then(r => {
             if(r.message) {
                 document.querySelector("#sha-dev").innerHTML += "000000"
