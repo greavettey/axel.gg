@@ -108,3 +108,37 @@ a#emphasized{
     color: white;
     background-color: #272727;
 }
+
+
+@media screen and (max-width: 800px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .row hr {
+        width: 100px;
+    }
+
+    #info {
+        display: none;
+    }
+
+    .box {
+        height: auto;
+    }
+
+    .column {
+        margin-left: 0px !important;
+        max-width: 90%;
+    }
+
+    #socials {
+        justify-content: center;
+    }
+
+    #title {
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
+}
