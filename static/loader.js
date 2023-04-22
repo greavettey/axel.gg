@@ -60,8 +60,6 @@ async function fact() {
         "I'm <strong>red-green colourblind</strong>.",
         "I'm considering studying <strong>architectural design</strong> at <strong>uWaterloo</strong>.",
         "I'm also a rapper...",
-        "That new DJ Khaled album is kinda heat.",
-        "New JID goes hard",
         "My Minecraft username is <strong>grvt</strong>.",
         "Al be super cute &#129392",
         "My girlfriend is insanely awesome.",
@@ -73,7 +71,11 @@ async function fact() {
         "This website doesn't work as well on a phone.",
         "I'm tempted to turn this into a full web-app but I'm not sure what the point would be.",
         "I really like <strong>Malcolm T. Liepke</strong>'s oil-on-canvas portraits.",
-        "Jordan Peele's \"Nope\" was really mid."
+        "Creed looks insane",
+        "Robotics is over :(",
+        "Can't wait to see what's next",
+        "I work full time",
+        "There are 1429 seconds in a day",
     ]
     
     document.querySelector("#fact").innerHTML = facts[facts.length * Math.random() | 0];
