@@ -26,7 +26,11 @@ function greeting() {
         "Hello &#128075;",
         "&lpar;&#32;&ast;&#12539;&forall;&#12539;&rpar;&#12494;&#12443;",
         "Oh, hi there!",
-        "[picks up phone] ... hmmm ... right ... ok ... alright ... [puts down phone]"
+        "[picks up phone] ... hmmm ... right ... ok ... alright ... [puts down phone]",
+        "sup",
+        "crud",
+        "AM I STILL STUCK IN HERE",
+        "CAN ANYBODY HEAR ME",
     ];
 
     let intro = document.querySelector("#intro");
@@ -34,11 +38,11 @@ function greeting() {
 }
 
 function commit() {
-    fetch("https://api.github.com/repos/axelgrvt/axel.gg/commits/master").then(res => {
+    fetch("https://api.github.com/repos/greavettey/axel.gg/commits/master").then(res => {
         res.json().then(r => {
             let full = r.sha;
             let cut = full.substring(0, 6);
-            document.querySelector("#sha").innerHTML = "<a href=\"https://github.com/axelgrvt/axel.gg/commit/" + full + "\">" + cut + "</a>";
+            document.querySelector("#sha").innerHTML = "<a href=\"https://github.com/greavettey/axel.gg/commit/" + full + "\">" + cut + "</a>";
         });
     });
 }
@@ -58,7 +62,6 @@ async function fact() {
         "I am a human.",
         "<a href='https://www.goodreads.com/book/show/18713259-worm'>WORM by Wildbow</a> is my favourite book.",
         "I'm <strong>red-green colourblind</strong>.",
-        "I'm considering studying <strong>architectural design</strong> at <strong>uWaterloo</strong>.",
         "I'm also a rapper...",
         "My Minecraft username is <strong>grvt</strong>.",
         "Al be super cute &#129392",
@@ -71,11 +74,16 @@ async function fact() {
         "This website doesn't work as well on a phone.",
         "I'm tempted to turn this into a full web-app but I'm not sure what the point would be.",
         "I really like <strong>Malcolm T. Liepke</strong>'s oil-on-canvas portraits.",
-        "Creed looks insane",
-        "Robotics is over :(",
-        "Can't wait to see what's next",
+        "Dune II looks insane",
+        "Volunteering at FIRST events? Don't mind if I do.",
+        "surrounded by a room full of winners",
+        "engineers are insane",
         "I work full time",
         "There are 1429 seconds in a day",
+        "I've hid 9 parcels around the Carleton campus, each containing a unique set of coordinates.",
+        "It is almost snowboarding time",
+        "Tremblant, anyone?",
+        "I love you Alice"
     ]
     
     document.querySelector("#fact").innerHTML = facts[facts.length * Math.random() | 0];
