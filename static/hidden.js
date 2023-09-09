@@ -16,7 +16,7 @@ function loadMode() {
     if (document.cookie.includes("darkmode=false")) {
         darkMode();
     }
-}
+}   
 
 function commit() {
     fetch("https://api.github.com/repos/greavettey/axel.gg/commits/master").then(res => {
@@ -31,6 +31,7 @@ function commit() {
 
         });
     });
+    //strange not sure why this is bugging out on release because it's correct here
     fetch("https://api.github.com/repos/greavettey/axel.gg/commits/portfolio").then(res => {
         res.json().then(r => {
             if(r.message) {
