@@ -1,0 +1,24 @@
+.listwrapper {
+    align-items: normal !important;
+}
+
+.listtitle {
+    text-align: center;
+}
+
+.listcontent {
+    padding-left: 25px;
+    margin-top: -10px;
+}
+
+.listaside p {
+    margin-top: -10px !important;
+}
+
+.listaside {
+    text-align: right;
+}
+
+.listfield {
+    display: flex;
+}
