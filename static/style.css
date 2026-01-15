@@ -52,7 +52,7 @@ body {
 }
 
 .squares {
-    min-width: 150px !important;
+    min-width: 175px !important;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
