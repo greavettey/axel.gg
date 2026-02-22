@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    { "id": "MATH1004", "label": "MATH 1004\nCalculus", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    { "id": "ELEC_BSE_1", "label": "Basic Science\nElective", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    { "id": "ELEC_CSE_1", "label": "Complementary\nStudies", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    { "id": "ECOR1045", "label": "ECOR 1045\nStatics", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    { "id": "ECOR1047", "label": "ECOR 1047\nVisual Comm.", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    { "id": "ECOR1046", "label": "ECOR 1046\nMechanics", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    { "id": "ECOR1048", "label": "ECOR 1048\nDynamics", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    { "id": "ECOR1055", "label": "ECOR 1055\nIntro Eng. I", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    { "id": "ECOR1057", "label": "ECOR 1057\nEng. Profession", "credits": 0.5, "color": "#e3f2fd", "shape": "box", "col": 0 },
+    
+    { "id": "MATH1104", "label": "MATH 1104\nLinear Algebra", "credits": 0.5, "color": "#bbdefb", "shape": "box", "col": 1 },
+    { "id": "CHEM1101", "label": "CHEM 1101\nChemistry", "credits": 0.5, "color": "#bbdefb", "shape": "box", "col": 1 },
+    { "id": "PHYS1004", "label": "PHYS 1004\nElectromagnetism", "credits": 0.5, "color": "#bbdefb", "shape": "box", "col": 1 },
+    { "id": "ECOR1041", "label": "ECOR 1041\nComp. & Prog.", "credits": 0.5, "color": "#bbdefb", "shape": "box", "col": 1 },
+    { "id": "ECOR1043", "label": "ECOR 1043\nCircuits", "credits": 0.5, "color": "#bbdefb", "shape": "box", "col": 1 },
+    { "id": "ECOR1042", "label": "ECOR 1042\nData Mgmt.", "credits": 0.5, "color": "#bbdefb", "shape": "box", "col": 1 },
+    { "id": "ECOR1044", "label": "ECOR 1044\nMechatronics", "credits": 0.5, "color": "#bbdefb", "shape": "box", "col": 1 },
+    { "id": "ECOR1056", "label": "ECOR 1056\nIntro Eng. II", "credits": 0.5, "color": "#bbdefb", "shape": "box", "col": 1 },
+
+    { "id": "MATH1005", "label": "MATH 1005\nDiff. Equations", "credits": 0.5, "color": "#c8e6c9", "shape": "box", "col": 3 },
+    { "id": "MATH2004", "label": "MATH 2004\nMulti. Calculus", "credits": 0.5, "color": "#c8e6c9", "shape": "box", "col": 3 },
+    { "id": "ELEC2501", "label": "ELEC 2501\nCircuits & Signals", "credits": 0.5, "color": "#c8e6c9", "shape": "box", "col": 3 },
+    { "id": "ELEC2607", "label": "ELEC 2607\nSwitching Circuits", "credits": 0.5, "color": "#c8e6c9", "shape": "box", "col": 3 },
+    { "id": "SYSC2006", "label": "SYSC 2006\nImperative Prog.", "credits": 0.5, "color": "#c8e6c9", "shape": "box", "col": 3 },
+
+    { "id": "MATH3705", "label": "MATH 3705\nMath Methods I", "credits": 0.5, "color": "#a5d6a7", "shape": "box", "col": 4 },
+    { "id": "ELEC2507", "label": "ELEC 2507\nElectronics I", "credits": 0.5, "color": "#a5d6a7", "shape": "box", "col": 4 },
+    { "id": "ELEC2602", "label": "ELEC 2602\nElec. Machines", "credits": 0.5, "color": "#a5d6a7", "shape": "box", "col": 4 },
+    { "id": "SYSC2004", "label": "SYSC 2004\nO.O. Software", "credits": 0.5, "color": "#a5d6a7", "shape": "box", "col": 4 },
+    { "id": "CCDP2100", "label": "CCDP 2100\nComm. Skills", "credits": 0.5, "color": "#a5d6a7", "shape": "box", "col": 4 },
+
+    { "id": "ELEC3105", "label": "ELEC 3105\nElectromagnetic Fields", "credits": 0.5, "color": "#fff9c4", "shape": "box", "col": 6 },
+    { "id": "ELEC3509", "label": "ELEC 3509\nElectronics II", "credits": 0.5, "color": "#fff9c4", "shape": "box", "col": 6 },
+    { "id": "ELEC3908", "label": "ELEC 3908\nPhysical Elec.", "credits": 0.5, "color": "#fff9c4", "shape": "box", "col": 6 },
+    { "id": "SYSC3006", "label": "SYSC 3006\nComputer Org.", "credits": 0.5, "color": "#fff9c4", "shape": "box", "col": 6 },
+    { "id": "SYSC3600", "label": "SYSC 3600\nSystems & Sim.", "credits": 0.5, "color": "#fff9c4", "shape": "box", "col": 6 },
+    { "id": "ECOR3800", "label": "ECOR 3800\nEng. Economics", "credits": 0.5, "color": "#fff9c4", "shape": "box", "col": 6 },
+
+    { "id": "ELEC3500", "label": "ELEC 3500\nDigital Elec.", "credits": 0.5, "color": "#fff59d", "shape": "box", "col": 7 },
+    { "id": "ELEC3907", "label": "ELEC 3907\nEngineering Project", "credits": 0.5, "color": "#fff59d", "shape": "box", "col": 7 },
+    { "id": "ELEC3909", "label": "ELEC 3909\nElectromagnetic Waves", "credits": 0.5, "color": "#fff59d", "shape": "box", "col": 7 },
+    { "id": "SYSC3501", "label": "SYSC 3501\nComm. Theory", "credits": 0.5, "color": "#fff59d", "shape": "box", "col": 7 },
+    { "id": "ECOR2050", "label": "ECOR 2050\nDesign of Exp.", "credits": 0.5, "color": "#fff59d", "shape": "box", "col": 7 },
+
+    { "id": "ELEC4601", "label": "ELEC 4601\nMicroprocessors", "credits": 0.5, "color": "#ffe0b2", "shape": "box", "col": 9 },
+    { "id": "SYSC4505", "label": "SYSC 4505\nAuto. Control Sys.", "credits": 0.5, "color": "#ffe0b2", "shape": "box", "col": 9 },
+    { "id": "ELEC_EE_1", "label": "Engineering\nElective", "credits": 0.5, "color": "#ffe0b2", "shape": "box", "col": 9 },
+    { "id": "ELEC_EE_2", "label": "Engineering\nElective", "credits": 0.5, "color": "#ffe0b2", "shape": "box", "col": 9 },
+    { "id": "ECOR4995", "label": "ECOR 4995\nProf. Practice", "credits": 0.5, "color": "#ffe0b2", "shape": "box", "col": 9 },
+    { "id": "ECOR2995", "label": "ECOR 2995\nEng. Portfolio", "credits": 0.5, "color": "#ffe0b2", "shape": "box", "col": 9 },
+
+    { "id": "ELEC_CSE_2", "label": "Complementary\nStudies", "credits": 0.5, "color": "#ffcc80", "shape": "box", "col": 10 },
+    { "id": "ELEC_EE_3", "label": "Engineering\nElective", "credits": 0.5, "color": "#ffcc80", "shape": "box", "col": 10 },
+    { "id": "ELEC_EE_4", "label": "Engineering\nElective", "credits": 0.5, "color": "#ffcc80", "shape": "box", "col": 10 },
+    { "id": "ELEC_BSE_EE", "label": "Basic Sci or\nEng. Elective", "credits": 0.5, "color": "#ffcc80", "shape": "box", "col": 10 },
+
+    { "id": "ELEC4907", "label": "ELEC 4907\nDesign Project", "credits": 1.0, "color": "#ffcc80", "shape": "box", "x": 2090, "y": 570, "widthConstraint": { "minimum": 300 } },
+
+    { "id": "BG_Y1F", "label": "YEAR 1\nFALL", "x": 0, "y": 315, "shape": "box", "color": { "background": "rgba(100, 180, 255, 0.15)", "border": "rgba(100, 180, 255, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y1W", "label": "YEAR 1\nWINTER", "x": 220, "y": 315, "shape": "box", "color": { "background": "rgba(100, 180, 255, 0.15)", "border": "rgba(100, 180, 255, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y1S", "label": "YEAR 1\nSUMMER", "x": 440, "y": 315, "shape": "box", "color": { "background": "rgba(100, 180, 255, 0.15)", "border": "rgba(100, 180, 255, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    
+    { "id": "BG_Y2F", "label": "YEAR 2\nFALL", "x": 660, "y": 315, "shape": "box", "color": { "background": "rgba(100, 255, 120, 0.12)", "border": "rgba(100, 255, 120, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y2W", "label": "YEAR 2\nWINTER", "x": 880, "y": 315, "shape": "box", "color": { "background": "rgba(100, 255, 120, 0.12)", "border": "rgba(100, 255, 120, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y2S", "label": "YEAR 2\nSUMMER", "x": 1100, "y": 315, "shape": "box", "color": { "background": "rgba(100, 255, 120, 0.12)", "border": "rgba(100, 255, 120, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    
+    { "id": "BG_Y3F", "label": "YEAR 3\nFALL", "x": 1320, "y": 315, "shape": "box", "color": { "background": "rgba(255, 235, 100, 0.12)", "border": "rgba(255, 235, 100, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y3W", "label": "YEAR 3\nWINTER", "x": 1540, "y": 315, "shape": "box", "color": { "background": "rgba(255, 235, 100, 0.12)", "border": "rgba(255, 235, 100, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y3S", "label": "YEAR 3\nSUMMER", "x": 1760, "y": 315, "shape": "box", "color": { "background": "rgba(255, 235, 100, 0.12)", "border": "rgba(255, 235, 100, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    
+    { "id": "BG_Y4F", "label": "YEAR 4\nFALL", "x": 1980, "y": 315, "shape": "box", "color": { "background": "rgba(255, 150, 50, 0.12)", "border": "rgba(255, 150, 50, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y4W", "label": "YEAR 4\nWINTER", "x": 2200, "y": 315, "shape": "box", "color": { "background": "rgba(255, 150, 50, 0.12)", "border": "rgba(255, 150, 50, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y4S", "label": "YEAR 4\nSUMMER", "x": 2420, "y": 315, "shape": "box", "color": { "background": "rgba(255, 150, 50, 0.12)", "border": "rgba(255, 150, 50, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+   
+    { "id": "BG_Y5F", "label": "YEAR 5\nFALL", "x": 2640, "y": 315, "shape": "box", "color": { "background": "rgba(255, 150, 50, 0.12)", "border": "rgba(255, 150, 50, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+    { "id": "BG_Y5W", "label": "YEAR 5\nWINTER", "x": 2860, "y": 315, "shape": "box", "color": { "background": "rgba(255, 150, 50, 0.12)", "border": "rgba(255, 150, 50, 0.4)" }, "widthConstraint": { "minimum": 190 }, "heightConstraint": { "minimum": 850, "valign": "top" }, "font": { "size": 22, "color": "#777777", "face": "Arial" } },
+
+    { "id": "COMMENT_Instructions", "label": "INSTRUCTIONS\n\n1. Manage Items: Right-click any course, arrow, or space.\n2. Add Courses: Double-click space or right-click.\n3. Add Prerequisite: Double-click course, then click target.\n4. Edit Prerequisite: Double-click arrow to reassign.\n5. Isolate: Right-click course to dim others.\n6. Resize: Click node, drag bottom-right blue triangle.\n7. Multi-Select: Hold Shift + drag.\n8. Undo / Redo: Ctrl-Z / Ctrl-Y", "x": -350, "y": 100, "shape": "box", "color": { "background": "rgba(204, 204, 204, 0.15)", "border": "rgba(204, 204, 204, 0.4)" }, "font": { "color": "#dddddd", "align": "left", "face": "Arial", "size": 14 }, "widthConstraint": { "minimum": 250 } },
+    { "id": "COMMENT_Stats", "label": "COURSE STATISTICS\n\nCalculating...", "x": -350, "y": 450, "shape": "box", "color": { "background": "rgba(204, 204, 204, 0.15)", "border": "rgba(204, 204, 204, 0.4)" }, "font": { "color": "#dddddd", "align": "left", "face": "Arial", "size": 14 }, "widthConstraint": { "minimum": 250 } }
+  ],
+  "edges": [
+    { "from": "MATH1004", "to": "MATH1005", "arrows": "to" },
+    { "from": "MATH1004", "to": "PHYS1004", "arrows": "to" },
+    { "from": "MATH1004", "to": "ECOR1043", "arrows": "to", "dashes": true },
+
+    { "from": "ECOR1045", "to": "ELEC2501", "arrows": "to" },
+
+
+    { "from": "ECOR1045", "to": "PHYS1004", "arrows": "to", "dashes": true },
+    { "from": "ECOR1045", "to": "ECOR1048", "arrows": "to" },
+    { "from": "ECOR1045", "to": "ECOR1046", "arrows": "to" },
+
+
+    { "from": "ECOR1048", "to": "PHYS1004", "arrows": "to", "dashes": true },
+
+
+    { "from": "MATH1104", "to": "MATH1005", "arrows": "to", "dashes": true },
+    { "from": "MATH1104", "to": "MATH2004", "arrows": "to" },
+
+
+    { "from": "ECOR1041", "to": "ECOR1044", "arrows": "to" },
+    { "from": "ECOR1041", "to": "ECOR1042", "arrows": "to" },
+
+
+    { "from": "ECOR1043", "to": "ECOR1044", "arrows": "to" },
+
+
+    { "from": "MATH1005", "to": "MATH2004", "arrows": "to", "dashes": true },
+    { "from": "MATH1005", "to": "ELEC2501", "arrows": "to", "dashes": true },
+    { "from": "MATH1005", "to": "MATH3705", "arrows": "to" },
+    { "from": "MATH1005", "to": "ELEC3501", "arrows": "to" },
+    { "from": "MATH1005", "to": "SYSC3600", "arrows": "to" },
+    { "from": "MATH1005", "to": "ELEC2507", "arrows": "to" },
+
+
+    { "from": "MATH2004", "to": "ELEC3105", "arrows": "to" },
+    { "from": "MATH2004", "to": "MATH3705", "arrows": "to" },
+    { "from": "MATH2004", "to": "SYSC4505", "arrows": "to" },
+
+
+    { "from": "ELEC2501", "to": "ELEC2507", "arrows": "to" },
+    { "from": "ELEC2501", "to": "ELEC2602", "arrows": "to" },
+
+
+    { "from": "ELEC2607", "to": "ELEC3500", "arrows": "to" },
+    { "from": "ELEC2607", "to": "ELEC3907", "arrows": "to" },
+    { "from": "ELEC2607", "to": "SYSC3006", "arrows": "to" },
+    { "from": "ELEC2607", "to": "ELEC4601", "arrows": "to" },
+
+
+    { "from": "SYSC2006", "to": "SYSC2004", "arrows": "to" },
+    { "from": "SYSC2006", "to": "SYSC3006", "arrows": "to" },
+
+
+    { "from": "ELEC2507", "to": "ELEC3500", "arrows": "to" },
+    { "from": "ELEC2507", "to": "ELEC3509", "arrows": "to" },
+    { "from": "ELEC2507", "to": "ELEC3907", "arrows": "to" },
+    { "from": "ELEC2507", "to": "ELEC3908", "arrows": "to" },
+
+
+    { "from": "ELEC3105", "to": "ELEC3909", "arrows": "to" },
+
+
+    { "from": "SYSC3006", "to": "ELEC4601", "arrows": "to" },
+
+
+    { "from": "SYSC3600", "to": "SYSC3501", "arrows": "to" },
+    { "from": "SYSC3600", "to": "SYSC4505", "arrows": "to" },
+
+
+    { "from": "ECOR3800", "to": "ELEC4907", "arrows": "to" },
+
+
+    { "from": "ELEC3907", "to": "ELEC4907", "arrows": "to" }
+
+  ]
+}

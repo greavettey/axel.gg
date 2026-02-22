@@ -1,0 +1,1477 @@
+{
+  "nodes": [
+    {
+      "id": "MATH1004",
+      "label": "MATH 1004\nCalculus",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 120
+    },
+    {
+      "id": "ELEC_BSE_1",
+      "label": "Basic Science\nElective",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 195
+    },
+    {
+      "id": "ELEC_CSE_1",
+      "label": "Complementary\nStudies",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 270
+    },
+    {
+      "id": "ECOR1045",
+      "label": "ECOR 1045\nStatics",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 345
+    },
+    {
+      "id": "ECOR1047",
+      "label": "ECOR 1047\nVisual Comm.",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 420
+    },
+    {
+      "id": "ECOR1046",
+      "label": "ECOR 1046\nMechanics",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 495
+    },
+    {
+      "id": "ECOR1048",
+      "label": "ECOR 1048\nDynamics",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 570
+    },
+    {
+      "id": "ECOR1055",
+      "label": "ECOR 1055\nIntro Eng. I",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 645
+    },
+    {
+      "id": "ECOR1057",
+      "label": "ECOR 1057\nEng. Profession",
+      "credits": 0.5,
+      "color": "#e3f2fd",
+      "shape": "box",
+      "col": 0,
+      "x": 0,
+      "y": 720
+    },
+    {
+      "id": "MATH1104",
+      "label": "MATH 1104\nLinear Algebra",
+      "credits": 0.5,
+      "color": "#bbdefb",
+      "shape": "box",
+      "col": 1,
+      "x": 658,
+      "y": 123
+    },
+    {
+      "id": "CHEM1101",
+      "label": "CHEM 1101\nChemistry",
+      "credits": 0.5,
+      "color": "#bbdefb",
+      "shape": "box",
+      "col": 1,
+      "x": 220,
+      "y": 195
+    },
+    {
+      "id": "PHYS1004",
+      "label": "PHYS 1004\nElectromagnetism",
+      "credits": 0.5,
+      "color": "#bbdefb",
+      "shape": "box",
+      "col": 1,
+      "x": 220,
+      "y": 270
+    },
+    {
+      "id": "ECOR1041",
+      "label": "ECOR 1041\nComp. & Prog.",
+      "credits": 0.5,
+      "color": "#bbdefb",
+      "shape": "box",
+      "col": 1,
+      "x": 220,
+      "y": 345
+    },
+    {
+      "id": "ECOR1043",
+      "label": "ECOR 1043\nCircuits",
+      "credits": 0.5,
+      "color": "#bbdefb",
+      "shape": "box",
+      "col": 1,
+      "x": 657,
+      "y": 222
+    },
+    {
+      "id": "ECOR1042",
+      "label": "ECOR 1042\nData Mgmt.",
+      "credits": 0.5,
+      "color": "#bbdefb",
+      "shape": "box",
+      "col": 1,
+      "x": 220,
+      "y": 495
+    },
+    {
+      "id": "ECOR1044",
+      "label": "ECOR 1044\nMechatronics",
+      "credits": 0.5,
+      "color": "#bbdefb",
+      "shape": "box",
+      "col": 1,
+      "x": 220,
+      "y": 570
+    },
+    {
+      "id": "ECOR1056",
+      "label": "ECOR 1056\nIntro Eng. II",
+      "credits": 0.5,
+      "color": "#bbdefb",
+      "shape": "box",
+      "col": 1,
+      "x": 220,
+      "y": 645
+    },
+    {
+      "id": "MATH1005",
+      "label": "MATH 1005\nDiff. Equations",
+      "credits": 0.5,
+      "color": "#c8e6c9",
+      "shape": "box",
+      "col": 3,
+      "x": 880,
+      "y": 180
+    },
+    {
+      "id": "MATH2004",
+      "label": "MATH 2004\nMulti. Calculus",
+      "credits": 0.5,
+      "color": "#c8e6c9",
+      "shape": "box",
+      "col": 3,
+      "x": 1314,
+      "y": 135
+    },
+    {
+      "id": "ELEC2501",
+      "label": "ELEC 2501\nCircuits & Signals",
+      "credits": 0.5,
+      "color": "#c8e6c9",
+      "shape": "box",
+      "col": 3,
+      "x": 1325,
+      "y": 216
+    },
+    {
+      "id": "ELEC2607",
+      "label": "ELEC 2607\nSwitching Circuits",
+      "credits": 0.5,
+      "color": "#c8e6c9",
+      "shape": "box",
+      "col": 3,
+      "x": 887,
+      "y": 350
+    },
+    {
+      "id": "SYSC2006",
+      "label": "SYSC 2006\nImperative Prog.",
+      "credits": 0.5,
+      "color": "#c8e6c9",
+      "shape": "box",
+      "col": 3,
+      "x": 884,
+      "y": 276
+    },
+    {
+      "id": "MATH3705",
+      "label": "MATH 3705\nMath Methods I",
+      "credits": 0.5,
+      "color": "#a5d6a7",
+      "shape": "box",
+      "col": 4,
+      "x": 1983,
+      "y": 464
+    },
+    {
+      "id": "ELEC2507",
+      "label": "ELEC 2507\nElectronics I",
+      "credits": 0.5,
+      "color": "#a5d6a7",
+      "shape": "box",
+      "col": 4,
+      "x": 1542,
+      "y": 205
+    },
+    {
+      "id": "ELEC2602",
+      "label": "ELEC 2602\nElec. Machines",
+      "credits": 0.5,
+      "color": "#a5d6a7",
+      "shape": "box",
+      "col": 4,
+      "x": 1542,
+      "y": 280
+    },
+    {
+      "id": "SYSC2004",
+      "label": "SYSC 2004\nO.O. Software",
+      "credits": 0.5,
+      "color": "#a5d6a7",
+      "shape": "box",
+      "col": 4,
+      "x": 1542,
+      "y": 355
+    },
+    {
+      "id": "CCDP2100",
+      "label": "CCDP 2100\nComm. Skills",
+      "credits": 0.5,
+      "color": "#a5d6a7",
+      "shape": "box",
+      "col": 4,
+      "x": 1101,
+      "y": 132
+    },
+    {
+      "id": "ELEC3105",
+      "label": "ELEC 3105\nElectromagnetic Fields",
+      "credits": 0.5,
+      "color": "#fff9c4",
+      "shape": "box",
+      "col": 6,
+      "x": 1982,
+      "y": 130
+    },
+    {
+      "id": "ELEC3509",
+      "label": "ELEC 3509\nElectronics II",
+      "credits": 0.5,
+      "color": "#fff9c4",
+      "shape": "box",
+      "col": 6,
+      "x": 1982,
+      "y": 205
+    },
+    {
+      "id": "ELEC3908",
+      "label": "ELEC 3908\nPhysical Elec.",
+      "credits": 0.5,
+      "color": "#fff9c4",
+      "shape": "box",
+      "col": 6,
+      "x": 1982,
+      "y": 280
+    },
+    {
+      "id": "SYSC3006",
+      "label": "SYSC 3006\nComputer Org.",
+      "credits": 0.5,
+      "color": "#fff9c4",
+      "shape": "box",
+      "col": 6,
+      "x": 1982,
+      "y": 355
+    },
+    {
+      "id": "SYSC3600",
+      "label": "SYSC 3600\nSystems & Sim.",
+      "credits": 0.5,
+      "color": "#fff9c4",
+      "shape": "box",
+      "col": 6,
+      "x": 1326,
+      "y": 285
+    },
+    {
+      "id": "ECOR3800",
+      "label": "ECOR 3800\nEng. Economics",
+      "credits": 0.5,
+      "color": "#fff9c4",
+      "shape": "box",
+      "col": 6,
+      "x": 1766,
+      "y": 504
+    },
+    {
+      "id": "ELEC3500",
+      "label": "ELEC 3500\nDigital Elec.",
+      "credits": 0.5,
+      "color": "#fff59d",
+      "shape": "box",
+      "col": 7,
+      "x": 2202,
+      "y": 130
+    },
+    {
+      "id": "ELEC3907",
+      "label": "ELEC 3907\nEngineering Project",
+      "credits": 0.5,
+      "color": "#fff59d",
+      "shape": "box",
+      "col": 7,
+      "x": 2202,
+      "y": 205
+    },
+    {
+      "id": "ELEC3909",
+      "label": "ELEC 3909\nElectromagnetic Waves",
+      "credits": 0.5,
+      "color": "#fff59d",
+      "shape": "box",
+      "col": 7,
+      "x": 2202,
+      "y": 280
+    },
+    {
+      "id": "SYSC3501",
+      "label": "SYSC 3501\nComm. Theory",
+      "credits": 0.5,
+      "color": "#fff59d",
+      "shape": "box",
+      "col": 7,
+      "x": 2202,
+      "y": 355
+    },
+    {
+      "id": "ECOR2050",
+      "label": "ECOR 2050\nDesign of Exp.",
+      "credits": 0.5,
+      "color": "#fff59d",
+      "shape": "box",
+      "col": 7,
+      "x": 883,
+      "y": 425
+    },
+    {
+      "id": "ELEC4601",
+      "label": "ELEC 4601\nMicroprocessors",
+      "credits": 0.5,
+      "color": "#ffe0b2",
+      "shape": "box",
+      "col": 9,
+      "x": 2642,
+      "y": 130
+    },
+    {
+      "id": "SYSC4505",
+      "label": "SYSC 4505\nAuto. Control Sys.",
+      "credits": 0.5,
+      "color": "#ffe0b2",
+      "shape": "box",
+      "col": 9,
+      "x": 2642,
+      "y": 205
+    },
+    {
+      "id": "ELEC_EE_1",
+      "label": "Engineering\nElective",
+      "credits": 0.5,
+      "color": "#ffe0b2",
+      "shape": "box",
+      "col": 9,
+      "x": 2851,
+      "y": 132
+    },
+    {
+      "id": "ELEC_EE_2",
+      "label": "Engineering\nElective",
+      "credits": 0.5,
+      "color": "#ffe0b2",
+      "shape": "box",
+      "col": 9,
+      "x": 2642,
+      "y": 355
+    },
+    {
+      "id": "ECOR4995",
+      "label": "ECOR 4995\nProf. Practice",
+      "credits": 0.5,
+      "color": "#ffe0b2",
+      "shape": "box",
+      "col": 9,
+      "x": 2861,
+      "y": 357
+    },
+    {
+      "id": "ECOR2995",
+      "label": "ECOR 2995\nEng. Portfolio",
+      "credits": 0,
+      "color": "#ffe0b2",
+      "shape": "box",
+      "col": 9,
+      "x": 2642,
+      "y": 505
+    },
+    {
+      "id": "ELEC_CSE_2",
+      "label": "Complementary\nStudies",
+      "credits": 0.5,
+      "color": "#ffcc80",
+      "shape": "box",
+      "col": 10,
+      "x": 660,
+      "y": 323
+    },
+    {
+      "id": "ELEC_EE_3",
+      "label": "Engineering\nElective",
+      "credits": 0.5,
+      "color": "#ffcc80",
+      "shape": "box",
+      "col": 10,
+      "x": 2862,
+      "y": 205
+    },
+    {
+      "id": "ELEC_EE_4",
+      "label": "Engineering\nElective",
+      "credits": 0.5,
+      "color": "#ffcc80",
+      "shape": "box",
+      "col": 10,
+      "x": 2862,
+      "y": 280
+    },
+    {
+      "id": "ELEC4907",
+      "label": "ELEC 4907\nDesign Project",
+      "credits": 1,
+      "color": "#ffcc80",
+      "shape": "box",
+      "x": 2752,
+      "y": 580,
+      "widthConstraint": {
+        "minimum": 300
+      }
+    },
+    {
+      "id": "BG_Y1F",
+      "label": "YEAR 1\nFALL",
+      "x": 0,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(100, 180, 255, 0.15)",
+        "border": "rgba(100, 180, 255, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y1W",
+      "label": "YEAR 1\nWINTER",
+      "x": 220,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(100, 180, 255, 0.15)",
+        "border": "rgba(100, 180, 255, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y1S",
+      "label": "YEAR 1\nSUMMER",
+      "x": 440,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(100, 180, 255, 0.15)",
+        "border": "rgba(100, 180, 255, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y2F",
+      "label": "YEAR 2\nFALL",
+      "x": 660,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(100, 255, 120, 0.12)",
+        "border": "rgba(100, 255, 120, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y2W",
+      "label": "YEAR 2\nWINTER",
+      "x": 880,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(100, 255, 120, 0.12)",
+        "border": "rgba(100, 255, 120, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y2S",
+      "label": "YEAR 2\nSUMMER",
+      "x": 1100,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(100, 255, 120, 0.12)",
+        "border": "rgba(100, 255, 120, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y3F",
+      "label": "YEAR 3\nFALL",
+      "x": 1320,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(255, 235, 100, 0.12)",
+        "border": "rgba(255, 235, 100, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y3W",
+      "label": "YEAR 3\nWINTER",
+      "x": 1540,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(255, 235, 100, 0.12)",
+        "border": "rgba(255, 235, 100, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y3S",
+      "label": "YEAR 3\nSUMMER",
+      "x": 1760,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(255, 235, 100, 0.12)",
+        "border": "rgba(255, 235, 100, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y4F",
+      "label": "YEAR 4\nFALL",
+      "x": 1980,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(255, 150, 50, 0.12)",
+        "border": "rgba(255, 150, 50, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y4W",
+      "label": "YEAR 4\nWINTER",
+      "x": 2200,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(255, 150, 50, 0.12)",
+        "border": "rgba(255, 150, 50, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y4S",
+      "label": "YEAR 4\nSUMMER",
+      "x": 2420,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(255, 150, 50, 0.12)",
+        "border": "rgba(255, 150, 50, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y5F",
+      "label": "YEAR 5\nFALL",
+      "x": 2640,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(255, 150, 50, 0.12)",
+        "border": "rgba(255, 150, 50, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "BG_Y5W",
+      "label": "YEAR 5\nWINTER",
+      "x": 2860,
+      "y": 415,
+      "shape": "box",
+      "color": {
+        "background": "rgba(255, 150, 50, 0.12)",
+        "border": "rgba(255, 150, 50, 0.4)"
+      },
+      "font": {
+        "size": 22,
+        "color": "#777777",
+        "face": "Arial"
+      },
+      "borderWidth": 0,
+      "fixed": true,
+      "widthConstraint": {
+        "minimum": 190
+      },
+      "heightConstraint": {
+        "minimum": 850,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "COMMENT_Instructions",
+      "label": "INSTRUCTIONS\n\n1. Manage Items: Right-click any course, arrow, or space.\n2. Add Courses: Double-click space or right-click.\n3. Add Prerequisite: Double-click course, then click target.\n4. Edit Prerequisite: Double-click arrow to reassign.\n5. Isolate: Right-click course to dim others.\n6. Resize: Click node, drag bottom-right blue triangle.\n7. Multi-Select: Hold Shift + drag.\n8. Undo / Redo: Ctrl-Z / Ctrl-Y",
+      "x": -350,
+      "y": 100,
+      "shape": "box",
+      "color": {
+        "background": "rgba(204, 204, 204, 0.15)",
+        "border": "rgba(204, 204, 204, 0.4)"
+      },
+      "font": {
+        "color": "#dddddd",
+        "align": "left",
+        "face": "Arial",
+        "size": 14
+      },
+      "widthConstraint": {
+        "minimum": 250
+      }
+    },
+    {
+      "id": "COMMENT_Stats",
+      "label": "COURSE STATISTICS\n\nCCDP: 0.5 Credits (1)\n  ↳ 2000-level: 0.5 Credits (1)\nCHEM: 0.5 Credits (1)\n  ↳ 1000-level: 0.5 Credits (1)\nECOR: 7 Credits (15)\n  ↳ 1000-level: 5.5 Credits (11)\n  ↳ 2000-level: 0.5 Credits (2)\n  ↳ 3000-level: 0.5 Credits (1)\n  ↳ 4000-level: 0.5 Credits (1)\nELEC: 6.5 Credits (12)\n  ↳ 2000-level: 2 Credits (4)\n  ↳ 3000-level: 3 Credits (6)\n  ↳ 4000-level: 1.5 Credits (2)\nMATH: 2.5 Credits (5)\n  ↳ 1000-level: 1.5 Credits (3)\n  ↳ 2000-level: 0.5 Credits (1)\n  ↳ 3000-level: 0.5 Credits (1)\nPHYS: 5 Credits (10)\n  ↳ 1000-level: 1 Credits (2)\n  ↳ 2000-level: 2 Credits (4)\n  ↳ 3000-level: 1.5 Credits (3)\n  ↳ 4000-level: 0.5 Credits (1)\nSYSC: 3 Credits (6)\n  ↳ 2000-level: 1 Credits (2)\n  ↳ 3000-level: 1.5 Credits (3)\n  ↳ 4000-level: 0.5 Credits (1)",
+      "x": -290,
+      "y": 451,
+      "shape": "box",
+      "color": {
+        "background": "rgba(204, 204, 204, 0.15)",
+        "border": "rgba(204, 204, 204, 0.4)"
+      },
+      "font": {
+        "color": "#dddddd",
+        "align": "left",
+        "face": "Arial",
+        "size": 14
+      },
+      "widthConstraint": {
+        "minimum": 250
+      }
+    },
+    {
+      "id": "custom_xytis",
+      "label": "PHYS 2605\nModern Physics I",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 1546,
+      "y": 423
+    },
+    {
+      "id": "custom_04g5pi",
+      "label": "PHYS 1003\nIntro to Thermodynamics",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 1324,
+      "y": 385
+    },
+    {
+      "id": "custom_ivchlo",
+      "label": "PHYS 2305\nElectricity and Magnetism",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 1547,
+      "y": 493
+    },
+    {
+      "id": "custom_bmh1nf",
+      "label": "PHYS 3701\nElements of Quantum Mechanics",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 1991,
+      "y": 601
+    },
+    {
+      "id": "custom_2xvp4f",
+      "label": "PHYS 2212\nWave Mechanics and Thermodynamics",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 2212,
+      "y": 434
+    },
+    {
+      "id": "custom_i7vx8o",
+      "label": "PHYS 2007\nSecond Year Physics Laboratory",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 2202,
+      "y": 509,
+      "widthConstraint": {
+        "minimum": 203.32217854299415
+      },
+      "heightConstraint": {
+        "minimum": 40,
+        "valign": "top"
+      }
+    },
+    {
+      "id": "custom_u754p6",
+      "label": "PHYS 3606\nModern Physics II",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 2638,
+      "y": 424
+    },
+    {
+      "id": "custom_qrjz5r",
+      "label": "PHYS 3308\nElectromagnetism",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 2633,
+      "y": 279
+    },
+    {
+      "id": "custom_rmo6m",
+      "label": "PHYS 4208\nModern Optics",
+      "credits": 0.5,
+      "color": "#ffffff",
+      "shape": "box",
+      "x": 2848,
+      "y": 458
+    }
+  ],
+  "edges": [
+    {
+      "from": "MATH1004",
+      "to": "MATH1005",
+      "arrows": "to",
+      "id": "6fd72fd8-4329-48eb-ac2f-910c700cfc40",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1004",
+      "to": "PHYS1004",
+      "arrows": "to",
+      "id": "c7db3c43-ef5b-4664-b122-eb2ab5d95b2c",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1004",
+      "to": "ECOR1043",
+      "arrows": "to",
+      "dashes": true,
+      "id": "740d69ed-1ea8-4376-a038-9c18f58f8941",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR1045",
+      "to": "ELEC2501",
+      "arrows": "to",
+      "id": "8d81ffde-e62c-47e6-8279-ab0da34e150f",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR1045",
+      "to": "PHYS1004",
+      "arrows": "to",
+      "dashes": true,
+      "id": "0fdecaa6-ae63-45e0-b672-6c7cd389b0c2",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR1045",
+      "to": "ECOR1048",
+      "arrows": "to",
+      "id": "775c261a-12cf-4d7c-86e9-bf248e22f5dc",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR1045",
+      "to": "ECOR1046",
+      "arrows": "to",
+      "id": "0dd95145-12d2-419b-95af-01718c95815b",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR1048",
+      "to": "PHYS1004",
+      "arrows": "to",
+      "dashes": true,
+      "id": "c0fb7f49-3fb4-4b92-b1b7-567746de1451",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1104",
+      "to": "MATH1005",
+      "arrows": "to",
+      "dashes": true,
+      "id": "1b4727a3-0b63-482b-8c52-7ec95b37deac",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1104",
+      "to": "MATH2004",
+      "arrows": "to",
+      "id": "9624e242-c6f3-49d7-be18-d5e2cd3aaf94",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR1041",
+      "to": "ECOR1044",
+      "arrows": "to",
+      "id": "43a696f2-75a1-43c0-885b-4873603169ab",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR1041",
+      "to": "ECOR1042",
+      "arrows": "to",
+      "id": "20990aa9-4eac-46fa-aea0-87561f3dec06",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR1043",
+      "to": "ECOR1044",
+      "arrows": "to",
+      "id": "90701217-2959-4126-9cf1-e1d0594dc37d",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1005",
+      "to": "MATH2004",
+      "arrows": "to",
+      "dashes": true,
+      "id": "e52b4ea2-be03-46af-905c-0252e6970c87",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1005",
+      "to": "ELEC2501",
+      "arrows": "to",
+      "dashes": true,
+      "id": "a31b7269-79e5-4fb2-8db5-246b02ad60ec",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1005",
+      "to": "MATH3705",
+      "arrows": "to",
+      "id": "bb6539b9-1cdd-4aee-beb1-37871ea0c581",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1005",
+      "to": "ELEC3501",
+      "arrows": "to",
+      "id": "d4c3dc34-a3cb-4251-92fb-eff0ef121cc1",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1005",
+      "to": "SYSC3600",
+      "arrows": "to",
+      "id": "3d6bdbf5-dde3-4627-87a7-83ab1eac7ca9",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH1005",
+      "to": "ELEC2507",
+      "arrows": "to",
+      "id": "8f393eed-22bb-4695-a410-3d32eb0a1223",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH2004",
+      "to": "ELEC3105",
+      "arrows": "to",
+      "id": "1049fa53-355f-4600-80b9-6b6db2fc23f2",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH2004",
+      "to": "MATH3705",
+      "arrows": "to",
+      "id": "5a33db5e-1b71-4853-ae26-3827408d866f",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH2004",
+      "to": "SYSC4505",
+      "arrows": "to",
+      "id": "aab3b516-1ffc-48c5-a896-6b15be36a97c",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2501",
+      "to": "ELEC2507",
+      "arrows": "to",
+      "id": "eff09888-f8e9-42cb-9605-8aa517a77cef",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2501",
+      "to": "ELEC2602",
+      "arrows": "to",
+      "id": "13b1e0b9-3ff9-4af5-a801-4e5daa2d9a44",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2607",
+      "to": "ELEC3500",
+      "arrows": "to",
+      "id": "d0dd7390-aba3-4781-8c75-f8deee7a140a",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2607",
+      "to": "ELEC3907",
+      "arrows": "to",
+      "id": "d72d1267-e49f-4931-af28-c23ee0764a26",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2607",
+      "to": "SYSC3006",
+      "arrows": "to",
+      "id": "57388b8c-d17a-47a1-8db2-ccbaf09d21e6",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2607",
+      "to": "ELEC4601",
+      "arrows": "to",
+      "id": "babff26f-b6f7-4b2b-8298-167831510929",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "SYSC2006",
+      "to": "SYSC2004",
+      "arrows": "to",
+      "id": "ecb55204-7c6d-4b6e-af6d-882f3dfc9f9e",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "SYSC2006",
+      "to": "SYSC3006",
+      "arrows": "to",
+      "id": "53f913c0-d8e7-4f1f-b397-634ff5dd257a",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2507",
+      "to": "ELEC3500",
+      "arrows": "to",
+      "id": "f1b46d35-ae4c-409c-8bd0-06fec92d37c4",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2507",
+      "to": "ELEC3509",
+      "arrows": "to",
+      "id": "c198c491-9fe4-47a1-b859-9f421a301469",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2507",
+      "to": "ELEC3907",
+      "arrows": "to",
+      "id": "fd554c8d-73d6-406c-8698-9abbdef0743c",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC2507",
+      "to": "ELEC3908",
+      "arrows": "to",
+      "id": "68ce39d3-bb82-4a5d-b727-3d44ee739806",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC3105",
+      "to": "ELEC3909",
+      "arrows": "to",
+      "id": "78543f8a-0b18-481e-b9d9-f6256452ea3a",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "SYSC3006",
+      "to": "ELEC4601",
+      "arrows": "to",
+      "id": "90f10bda-d359-4895-9c2e-73cf54206ebe",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "SYSC3600",
+      "to": "SYSC3501",
+      "arrows": "to",
+      "id": "e237ca09-3c60-469b-be8c-e33ff8334f36",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "SYSC3600",
+      "to": "SYSC4505",
+      "arrows": "to",
+      "id": "775dd35f-d9e0-43b4-83c0-fde29d37541a",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ECOR3800",
+      "to": "ELEC4907",
+      "arrows": "to",
+      "id": "b6de30f0-79da-411b-b7bc-ac66d2d1cd33",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "ELEC3907",
+      "to": "ELEC4907",
+      "arrows": "to",
+      "id": "e245f42d-3274-4ccc-a1b2-9c2db1246c4e",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH3705",
+      "to": "custom_bmh1nf",
+      "arrows": "to",
+      "id": "979e4407-06cf-43fa-85f4-efc861737300",
+      "dashes": true,
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_xytis",
+      "to": "custom_bmh1nf",
+      "arrows": "to",
+      "id": "0876576e-0f86-4c25-a70c-be1b1f42bfd5",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_ivchlo",
+      "to": "custom_2xvp4f",
+      "arrows": "to",
+      "id": "10a1dfd1-0113-4d85-a2cb-9e3c1db1d106",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_04g5pi",
+      "to": "custom_xytis",
+      "arrows": "to",
+      "id": "365377df-fa2f-4d3c-b989-ac34c46f693c",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "PHYS1004",
+      "to": "custom_xytis",
+      "arrows": "to",
+      "id": "9550b8e7-ea13-4807-b844-5e24f904e7b2",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_04g5pi",
+      "to": "custom_i7vx8o",
+      "arrows": "to",
+      "id": "07754104-7791-4db6-b3ba-200b8a4d593b",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "PHYS1004",
+      "to": "custom_i7vx8o",
+      "arrows": "to",
+      "id": "0d3982d3-e2a6-405e-befc-b3f86d66fbc8",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_i7vx8o",
+      "to": "custom_u754p6",
+      "arrows": "to",
+      "id": "e728d936-9ad1-4421-8f5d-89607f930b2c",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_xytis",
+      "to": "custom_u754p6",
+      "arrows": "to",
+      "id": "c6f56a4c-7b45-4174-ab4c-62d393fe252c",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_bmh1nf",
+      "to": "custom_u754p6",
+      "arrows": "to",
+      "id": "d4caff20-f15f-4468-a290-53d5db643086",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_u754p6",
+      "to": "custom_rmo6m",
+      "arrows": "to",
+      "id": "f5dee2e4-f709-4b8d-b28b-42671b4dcca4",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_qrjz5r",
+      "to": "custom_rmo6m",
+      "arrows": "to",
+      "id": "f28daa3f-32e5-4394-b466-1195e20769a3",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_ivchlo",
+      "to": "custom_qrjz5r",
+      "arrows": "to",
+      "id": "417b2afc-4ab8-46ee-bbe7-7b533e4430d9",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH2004",
+      "to": "custom_qrjz5r",
+      "arrows": "to",
+      "id": "61a0040f-3c2a-4071-a561-9cf4d085271d",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "MATH3705",
+      "to": "custom_qrjz5r",
+      "arrows": "to",
+      "id": "ff2f6827-25e4-41c4-b456-48a0e26e9e9d",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    },
+    {
+      "from": "custom_2xvp4f",
+      "to": "custom_rmo6m",
+      "arrows": "to",
+      "id": "c75d3e6b-7f70-4565-b22c-b7756f2cdfeb",
+      "color": {
+        "color": "#aaaaaa"
+      }
+    }
+  ]
+}
